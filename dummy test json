@@ -1,0 +1,25 @@
+// POST http://localhost:8080/api/v1/parse
+// parameters sent with
+app.post('/api/v1/parse', function(req, res) {
+    var data= req.body.data;
+res.status(200);
+       
+
+      res.json({ firstName: 'JOHN0000',lastNam:"MICHAEL000",clientId:"9994567"  })
+
+
+   //
+});
+
+// POST http://localhost:8080/api/v2/parse
+// parameters sent with
+app.post('/api/v2/parse', function(req, res) {
+    var data= req.body.data;
+res.status(200);
+       
+
+      res.json({ firstName: 'JOHN',lastNam:"MICHAEL",clientId:"999-4567"  })
+
+
+   //
+});
